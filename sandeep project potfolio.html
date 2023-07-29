@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://127.0.0.1:5500/project/project2.html#contactus -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>project</title>
+    <link rel="stylesheet" href="./sandeep project potfolio_files/projectcss.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav class="nav-bar">
+            <div class="navlogo">
+                <a href="http://127.0.0.1:5500/project/project2.html#about">About</a>
+                <a href="http://127.0.0.1:5500/project/project2.html#skills">Skills</a>
+                <a href="http://127.0.0.1:5500/project/project2.html#qualification">quaification</a>
+                <a href="http://127.0.0.1:5500/project/project2.html#contactus">contact us</a>
+            </div>
+        </nav>
+        <main>
+            <section id="about">
+                <div class="nav-logo">
+                    <h1 class="secnd">About</h1>
+                    <h2 class="logo">
+                        HELLO,I AM
+                        <strong>SANDEEP YADAV</strong>
+                    </h2>
+                    <h4 class="first-logo">I AM A STUDENT OF MCA PERSUING FROM G D GOENKA UNIVERSITY</h4>
+                    <img src="./sandeep project potfolio_files/sandeep2.jpg" alt="picture" height="200" width="200">
+                </div>
+            </section>
+        </main>
+        
+    </header>
+    <section id="skills">
+        <div class="skill-first">
+            <h2 class="skill-second">Skills</h2>
+            <div class="top-first">
+                <div class="top-first">
+                    <div class="skills">
+                        <div class="progress-first">
+                            <h2>C/C++</h2>
+                            <div class="progress-bar-first">
+                                <div class="per c"></div>
+                            </div>
+                        </div>
+                        <div class="progress-first">
+                            <h2>JAVA</h2>
+                            <div class="progress-bar-first">
+                                <span class="per java"></span>
+                            </div>
+                        </div>
+                        <div class="progress-first">
+                            <h2>HTML</h2>
+                            <div class="progress-bar-first">
+                                <span class="per html"></span>
+                            </div>
+                        </div>
+                        <div class="progress-first">
+                            <h2>PYTHON</h2>
+                            <div class="progress-bar-first">
+                                <span class="per python"></span>
+                            </div>
+                        </div>
+                        <div class="progress-first">
+                            <h2>CSS</h2>
+                            <div class="progress-bar-first">
+                                <span class="per CSS"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+    <section id="qualification">
+        <div class="logo-nav">
+            <h2 class="logo-q">qualification</h2>
+            <div class="logo-s">
+                <p>10 <sup>th</sup>in 2017 from sun shine public school</p>
+                <p>12 <sup>th</sup>in 2019 from sun shine public school</p>
+                <p>B.Sc(maths) in 2022 from allahabad university</p>
+                <p>persuing MCA(Master's of Computer Application) from GD Goenka University Delhi NCR</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactus">
+        <div class="contact">
+            <h1 class="cont">contact us</h1>
+            <div class="phone">
+            <p>daina dheena chandauli</p>
+            <p><b>phone</b>-7007731169</p>
+            </div>
+        </div>
+    </section>
+
+
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
